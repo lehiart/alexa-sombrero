@@ -1,0 +1,85 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "alexa-sombrero-seleccionador",
+          "sourceDir": "custom/sombrero-seleccionador"
+        },
+        "interfaces": [
+          {
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "es-MX": {},
+        "es-ES": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "es-MX": {
+          "name": "El Sombrero seleccionador",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/2b5a/3cdc7e1660294080a4157b37e965a153/APP_ICON?versionId=O4NZqXJpFHYu1scKQzSQZyXsZAn_hYgS&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1555016263&Signature=07moSUsjSZ3ZceBN4VdkIvEJmFM%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/389a/6767b6e7f4b344358e4f53a18d06a648/APP_ICON_LARGE?versionId=GdhqVwpT3BQOQ4xEsFgkrmKIX9T9J0n5&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1555016263&Signature=N%2FQj9uBjfOUCmLWeyKpKDNahxqc%3D",
+          "summary": "Descubre a cual de las cuatro casas perteneces",
+          "description": "¡Bienvenido a Hogwarts! Soy el Sombrero Seleccionador. Como no puedo posarme en tu cabeza, te voy a hacer unas preguntas. ¿Estás preparado? Concéntrate bien. Relájate. Mi sabiduría hará el resto.\n\nInicia diciendo \"Alexa, abre el sombrero seleccionador\"  y empieza tu juego diciendo \"empieza\"\nescucha las diferentes preguntas y di el número de la opción de respuesta que deseas.\n\n¿Serás de Gryffindor, Hufflepuff, Ravenclaw o Slytherin?\n\nTest inspirado por J.K. Rowling, con el cual podrás descubrir a cuál casa perteneces.\n\nDisclaimer: \nLa skill de \"El sombrero seleccionador\" no es oficial, es hecho por un fan y No está afiliado, patrocinado ni soportado por ninguna marca relacionada a Harry Potter.\nLas imágenes y nombres de esta skill son usadas bajo 'fair use'\nHarry Potter y los nombres de cada casa son marcas registradas de la franquicia Harry Potter.",
+          "examplePhrases": [
+            "Alexa, abre el sombrero seleccionador",
+            "Inicia nuevo juego",
+            "Ayuda"
+          ],
+          "keywords": [
+            "harry",
+            "potter",
+            "hogwarts",
+            "casas",
+            "sombrero",
+            "seleccionador",
+            "gryffiyndor",
+            "hufflepuff",
+            "slytherin",
+            "ravenclaw"
+          ]
+        },
+        "es-ES": {
+          "name": "El Sombrero seleccionador",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/2b5a/3cdc7e1660294080a4157b37e965a153/APP_ICON?versionId=O4NZqXJpFHYu1scKQzSQZyXsZAn_hYgS&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1555016263&Signature=07moSUsjSZ3ZceBN4VdkIvEJmFM%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/389a/6767b6e7f4b344358e4f53a18d06a648/APP_ICON_LARGE?versionId=GdhqVwpT3BQOQ4xEsFgkrmKIX9T9J0n5&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1555016263&Signature=N%2FQj9uBjfOUCmLWeyKpKDNahxqc%3D",
+          "summary": "Descubre a cual de las cuatro casas perteneces",
+          "description": "¡Bienvenido a Hogwarts! Soy el Sombrero Seleccionador. Como no puedo posarme en tu cabeza, te voy a hacer unas preguntas. ¿Estás preparado? Concéntrate bien. Relájate. Mi sabiduría hará el resto.\n\nInicia diciendo \"Alexa, abre el sombrero seleccionador\"  y empieza tu juego diciendo \"empieza\"\nescucha las diferentes preguntas y di el número de la opción de respuesta que deseas.\n\n¿Serás de Gryffindor, Hufflepuff, Ravenclaw o Slytherin?\n\nTest inspirado por J.K. Rowling, con el cual podrás descubrir a cuál casa perteneces.\n\nDisclaimer: \nLa skill de \"El sombrero seleccionador\" no es oficial, es hecho por un fan y No está afiliado, patrocinado ni soportado por ninguna marca relacionada a Harry Potter.\nLas imágenes y nombres de esta skill son usadas bajo 'fair use'\nHarry Potter y los nombres de cada casa son marcas registradas de la franquicia Harry Potter.",
+          "examplePhrases": [
+            "Alexa, abre el sombrero seleccionador",
+            "Inicia nuevo juego",
+            "Ayuda"
+          ],
+          "keywords": [
+            "harry",
+            "potter",
+            "hogwarts",
+            "casas",
+            "sombrero",
+            "seleccionador",
+            "gryffiyndor",
+            "hufflepuff",
+            "slytherin",
+            "ravenclaw"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Instrucciones para test.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    }
+  }
+}

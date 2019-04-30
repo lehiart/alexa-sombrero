@@ -1,0 +1,4 @@
+lambda/custom/node_modules
+.vscode
+lambda/custom/constants.js
+.ask

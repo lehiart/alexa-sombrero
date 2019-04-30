@@ -1,0 +1,158 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "el sombrero seleccionador",
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StartOverIntent",
+            "samples": [
+              "nuevo juego",
+              "pon nuevo juego",
+              "pon juego nuevo",
+              "pon de nuevo",
+              "inicia nuevo juego",
+              "inicia juego nuevo",
+              "inicia de nuevo",
+              "comienza nuevo juego",
+              "comienza juego nuevo",
+              "comienza de nuevo",
+              "empezar nuevo juego",
+              "empezar juego nuevo",
+              "empezar de nuevo",
+              "iniciar nuevo juego",
+              "iniciar juego nuevo",
+              "iniciar de nuevo",
+              "comenzar nuevo juego",
+              "comenzar juego nuevo",
+              "comenzar de nuevo",
+              "poner nuevo juego",
+              "poner juego nuevo",
+              "poner de nuevo",
+              "abrir nuevo juego",
+              "abrir juego nuevo",
+              "abrir de nuevo"
+            ]
+          },
+          {
+            "name": "StartQuizIntent",
+            "slots": [],
+            "samples": [
+              "inicia",
+              "empezar",
+              "comienza",
+              "empieza",
+              "comenzar",
+              "iniciar"
+            ]
+          },
+          {
+            "name": "AMAZON.NavigateHomeIntent",
+            "samples": []
+          },
+          {
+            "name": "AnswerIntent",
+            "slots": [
+              {
+                "name": "answer",
+                "type": "AMAZON.NUMBER"
+              }
+            ],
+            "samples": [
+              "el numero {answer}",
+              "numero {answer}",
+              "la opción {answer}",
+              "la respuesta {answer}",
+              "{answer}",
+              "el {answer}",
+              "inciso {answer}",
+              "la {answer}",
+              "respuesta {answer}",
+              "opción {answer}"
+            ]
+          },
+          {
+            "name": "AMAZON.RepeatIntent",
+            "samples": [
+              "dilo de nuevo",
+              "dimelo de nuevo",
+              "repitemelo",
+              "repitemela",
+              "repitelo",
+              "repite",
+              "repetirlo",
+              "repetir"
+            ]
+          }
+        ],
+        "types": []
+      },
+      "dialog": {
+        "intents": [
+          {
+            "name": "AnswerIntent",
+            "confirmationRequired": false,
+            "prompts": {},
+            "slots": [
+              {
+                "name": "answer",
+                "type": "AMAZON.NUMBER",
+                "elicitationRequired": false,
+                "confirmationRequired": false,
+                "prompts": {},
+                "validations": [
+                  {
+                    "type": "isInSet",
+                    "prompt": "Slot.Validation.1276033154563.852058956655.203711968925",
+                    "values": [
+                      "1",
+                      "2",
+                      "3",
+                      "4",
+                      "5",
+                      "6",
+                      "7"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "delegationStrategy": "ALWAYS"
+      },
+      "prompts": [
+        {
+          "id": "Slot.Validation.597647093756.1197323656028.523570706271",
+          "variations": [
+            {
+              "type": "PlainText",
+              "value": "Por favor elige una de las opciones disponibles por letra."
+            }
+          ]
+        },
+        {
+          "id": "Slot.Validation.1276033154563.852058956655.203711968925",
+          "variations": [
+            {
+              "type": "PlainText",
+              "value": "La respuesta que elegiste no existe, Si quieres escuchar la pregunta y respuestas de nuevo di repetir"
+            }
+          ]
+        }
+      ]
+    },
+    "version": "1"
+  }
+  
